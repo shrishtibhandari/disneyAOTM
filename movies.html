@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+</head>
+<style>
+
+ @keyframes change_pic
+ {
+  10%{background:url(images/disney19.png);background-repeat:np-repeat;background-size:100%;}
+  20%{background:url(images/disney20.png);background-repeat:np-repeat;background-size:100%;}
+  30%{background:url(images/disney21.png);background-repeat:np-repeat;background-size:100%;}
+  40%{background:url(images/disney22.png);background-repeat:np-repeat;background-size:100%;}
+  } 
+
+header
+{ 
+width:100%;
+display:block; 
+background:#FDE9EC;
+height:550px;
+box-shadow:10px 10px 10px gray;
+margin:auto;
+background-images:url(images/bot1.png);
+background-size:cover;
+background-repeat:no-repeat;
+animation:change_pic 22s infinite;
+}
+
+header ul li
+{list-style:none;
+display:inline-block;
+font-size:18px;
+padding:20px;
+color:white;
+border:2px solid;
+border-radius:20px;
+margin-top:10px;}
+
+header ul li:hover
+
+{background:white;
+transform:scale(1.10);
+transition:0.5s;
+color:black;
+cursor:pointer;}
+
+header ul li a
+{color:white;
+text-decoration:none;}
+
+header ul li a:hover
+{color:black;
+}
+
+header h1
+{color:white;
+text-align:center;
+font-size:40px;}
+
+#head
+{width:20%;
+height:25px;}
+
+header p
+{color:white;
+text-align:center;
+font-size:40px;
+margin-top:200px;}
+   
+</style>
+<body>
+
+<header>
+<div style="height:50px;">
+    <div id="head">
+        <img src="images/disney2.png">
+        </div>
+
+    <ul>
+        <li> <a href="index.html"> Home </a> </li>
+        <li> <a href="">Theme park </a> </li>
+        <li> <a href="">Explore </a> </li>
+      </ul>
+    <h1>Unveiling Disney's Latest Animated Masterpiece</h1>
+    <p>Disney Movies</p>
+   </div> 
+   </header>  
+</body>
+</html>
